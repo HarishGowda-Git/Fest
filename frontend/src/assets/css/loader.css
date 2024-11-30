@@ -1,11 +1,11 @@
-body {
+
+.load{
+    width: 100vw;
+    height: 100vh;
+    padding: 45vh 45vw;
     background-color: black;
     color: white;
 
-}
-
-div {
-    margin: auto;
 }
 
 /* HTML: <div class="loader"></div> */
@@ -13,6 +13,7 @@ div {
     width: fit-content;
     font-weight: bold;
     font-family: monospace;
+    margin-left: 20px;
     font-size: 20px;
     clip-path: inset(0 3ch 0 0);
     animation: l4 1s steps(4) infinite;
