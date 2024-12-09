@@ -520,6 +520,9 @@ h6 {
   color: var(--accent-color);
 }
 
+.footer-links{
+  margin-left: 600px;
+}
 .footer .footer-links ul li {
   padding: 10px 0;
   display: flex;
